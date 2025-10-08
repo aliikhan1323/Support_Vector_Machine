@@ -23,6 +23,14 @@ By leveraging **SVMs**, the project highlights the power of linear and non-linea
   - Labels range from **0 to 9**
 
 ---
+## 📊 Model Performance Comparison
+
+| Model                     | Kernel | Training Data | **Accuracy**                          | Notes                              |
+| -------------------------- | ------ | ------------- | ------------------------------------- | ---------------------------------- |
+| **SVM (Linear)**           | Linear | Full dataset  | 🎯 **91.5%**                          | Fast and simple baseline           |
+| **SVM (RBF)**              | RBF    | 5,000 samples | 🚀 **94.3%**                          | Better performance on complex data |
+| **RBF (GridSearch Best)**  | RBF    | 3,000 samples | 🌟 **95.1% (Cross-Validation Score)** | Optimized hyperparameters          |
+
 
 ## ⚙️ Project Workflow
 
